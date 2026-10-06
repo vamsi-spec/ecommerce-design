@@ -5,4 +5,3 @@ public class ValidationException extends EcommerceException {
         super(message);
     }
 }
-

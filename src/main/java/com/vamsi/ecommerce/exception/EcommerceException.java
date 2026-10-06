@@ -5,4 +5,3 @@ public class EcommerceException extends RuntimeException {
         super(message);
     }
 }
-

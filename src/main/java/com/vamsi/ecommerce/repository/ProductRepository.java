@@ -9,7 +9,7 @@ import java.util.Optional;
 import com.vamsi.ecommerce.model.Product;
 
 public class ProductRepository {
-    private Map<Integer,Product> products;
+    private Map<Integer, Product> products;
     private int nextId = 1;
 
     public ProductRepository() {
@@ -31,5 +31,4 @@ public class ProductRepository {
     public List<Product> findAll() {
         return new ArrayList<>(products.values());
     }
-    
 }
